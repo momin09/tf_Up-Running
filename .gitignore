@@ -1,0 +1,4 @@
+.terraform
+*.tfstate
+*.tfstate.backup
+테라폼에쓸아이엠.csv
