@@ -1,4 +1,4 @@
-resource "aws_security)group" "instance" {
+resource "aws_security_group" "instance" {
     name = "terraform-example-instance"
 
     ingress {
