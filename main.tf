@@ -5,12 +5,12 @@ resource "aws_instance" "example" {
 
 
     user_data = <<-EOF
-                    #! /bin/bash
-                    echo "Hello, world" > index.html
-                    nohup busybox httpd -f -p 8080 &
-                    EOF
+                #! /bin/bash
+                echo "Hello, world" > index.html
+                nohup busybox httpd -f -p 8080 &
+                EOF
 
     tags = {
-        Name = "terraform-example"
+        Name = "HTTP Server"
     }
 }
