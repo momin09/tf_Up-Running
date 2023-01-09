@@ -2,4 +2,3 @@
 *.tfstate
 *.tfstate.backup
 테라폼에쓸아이엠.csv
-chapter3/backend.tf
