@@ -1,5 +1,6 @@
 resource "aws_s3_bucket" "terraform_state" {
-    bucket = "terraform-up-and-running-momin"
+    bucket  = "terraform-up-and-running-momin"
+
 
     # Prevent destroy S3 bucket
     lifecycle {
